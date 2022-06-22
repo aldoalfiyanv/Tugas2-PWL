@@ -24,20 +24,20 @@
                     Menu
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/constant.php">Constanta</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/do_while.php">Do While</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/for.php">For</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/foreach.php">Foreach</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/hello_world.php">Hello World</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/if.php">If</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/if_else.php">If Else</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/operator_aritmatika.php">Operator Aritmatika</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/operator_pembanding.php">Operator Pembanding</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/operator_string.php">Operator String</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/switch.php">Switch</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/variable.php">Variable</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/variable_object.php">Variable Object</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/Y6E-202143579015/while.php">While</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/constant.php">Constanta</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/do_while.php">Do While</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/for.php">For</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/foreach.php">Foreach</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/hello_world.php">Hello World</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/if.php">If</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/if_else.php">If Else</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/operator_aritmatika.php">Operator Aritmatika</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/operator_pembanding.php">Operator Pembanding</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/operator_string.php">Operator String</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/switch.php">Switch</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/variable.php">Variable</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/variable_object.php">Variable Object</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/Tugas2-PWL/while.php">While</a></li>
                 </ul>
                 </li>
             </ul>
@@ -58,17 +58,20 @@
             <div class="row">
                 <div class="col-12 py-5 text-center">
                 <?php 
-                   $t = date("H");
-
-                   if ($t < "10") {
-                     echo "<h1>Have a Good Morning!</h1>";
-                   } elseif ($t < "20") {
-                     echo "<h1>Have a Good Afternoon!</h1>";
-                   } else {
-                     echo "<h1>Have a Good Night!</h1>";
-                   }
+                  $hari = 3;
+                  if ($hari == 1) echo "Senin";
+                  elseif ($hari == 2) echo "Selasa";
+                  elseif ($hari == 1) echo "Rabu";
+                  elseif ($hari == 1) echo "Kamis";
+                  elseif ($hari == 1) echo "Jumat";
+                  elseif ($hari == 1) echo "Sabtu";
+                  elseif ($hari == 1) echo "Minggu";
+                  else echo "Salah Kode Hari";
                 ?>
                 </div>
+                <div class="col-12 py-4 text-center">
+                    <img class="w-50" src="img/if_else.png" alt="gambar">
+                </div> 
             </div>
         </main>
 
